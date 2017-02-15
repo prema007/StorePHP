@@ -1,0 +1,280 @@
+.table-container {
+ overflow-y: auto !important;
+ height: 550px !important;
+}
+
+.h3, h3 {
+    font-size: 20px;
+}
+td, th {
+ border-bottom:1px solid #eee !important;;
+ background: #fff !important;
+ color: #000 !important;
+ padding: 10px 25px !important;
+}
+.header-class {
+ height: 0 !important;
+ line-height: 0 !important;
+ padding-top: 0 !important;
+ padding-bottom: 0 !important;
+ color: black !important;
+ border: none !important;
+ white-space: nowrap !important;
+ border-bottom:1px solid #eee !important;;
+ background: #fff !important;
+ color: #000 !important;
+ padding: 10px 25px !important;
+}
+th div{
+ position: absolute !important;
+ background: #fff!important;
+ color: #000 !important;
+ padding: 9px 25px !important;
+ top: 0 !important;
+ margin-left: -25px !important;
+ line-height: normal !important;
+ border-left: 1px solid grey !important;
+ width:40%;
+}
+.select {
+  position: absolute !important;
+  background: #fff!important;
+  color: #000 !important;
+  padding: 17px 25px !important;
+  top: 0px !important;
+  /* margin-left: -25px !important; */
+  line-height: 0 !important;
+  border-left: 1px solid rgb(228, 203, 203) !important;
+  width: 392px !important;
+  margin-top: 0px;
+  }
+#tablebody{ margin-top: 30px; overflow: auto; }
+input[type="checkbox"], input[type="radio"] {
+    margin: 4px 12px 0px !important;
+    line-height: normal;
+}
+.showby-align
+{
+padding-left: 16px;
+}
+.btn-sub
+{
+margin-left: 15px;
+}
+table{
+background-color:white;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+#desc1{
+height:80px;
+    overflow-y: auto;
+}
+.login-bar{
+   padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 0px;
+}
+
+.login-bar .open{
+   padding-left: 250px;
+    padding-right: 250px;
+    margin-left: 0px;
+}
+
+#main-content{
+    padding-bottom:  20px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 0px;
+}
+
+
+log-arrow-up {
+    right: 0px;
+}
+
+.top-menu {
+    margin-left: 0px;
+    padding: 0px 50px 10px;
+}
+
+a.logo {
+
+    padding: 2px 20px 10px 60px;
+}
+
+.top-left-menu {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+
+.top-nav li.dropdown .dropdown-menu {
+
+    right: none;
+
+}
+
+.btn-primary, .btn-primary.disabled, .btn-primary[disabled], .btn-primary.disabled.active, .btn-primary.active[disabled] {
+    margin-bottom: 15px;
+}
+
+.form-signin .form-control {
+    position: relative;
+    margin-bottom: 15px;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+   font-size: 13px;
+}
+
+.form-signin input[type="text"], .form-signin input[type="password"] {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+    box-shadow: none;
+    font-size: 13px;
+}
+
+#login-wrapper{
+background-image: url("../img/abstract_0011.jpg");
+
+}
+
+
+#login-wrapper{
+height: 800px;
+}
+
+.form-signin {
+   
+    box-shadow: 3px 3px 3px rgba(6, 8, 8, 0.21);
+}
+
+#signin-wrapper {
+   
+    max-width: 330px;
+    margin: 100px auto 0px;
+
+}
+
+#img-center {
+    margin-left: 29%;
+  margin-bottom: -27%;
+  margin-top: -22%;
+}
+
+#panel-even-height{
+height: 370px;
+}
+#panel-even-body-height{
+height: 339px;
+}
+
+
+header#expenses{
+text-align:center;
+}
+
+
+#height{
+height: 50px;
+}
+
+
+#headeralign{
+padding: 20px;
+}
+
+
+#doughnut{
+height: 400px !important;
+width: 534px !important;    
+
+}
+
+#hero-bar{
+ height:403px !important; 
+}
+
+
+#form{
+width: 100px;
+}
+
+.size{
+font-size: 20px;
+}
+
+
+#select{
+width: 370px;
+}
+
+
+#select1{
+width: 1500px;
+padding-left: 468px;
+}
+
+#wrapper1{
+height: 1000px;
+}
+
+.align1{
+padding-left: 300px;
+}
+
+#select2{
+width: 500px;
+}
+
+header#align{
+text-align:center;
+}
+
+
+
+#pane1{
+width:780px;
+}
+
+
+#form{
+width: 100px;
+}
+
+
+
+#receivable_height {
+    height: 170px;
+}
+
+#Revenue_Expenses{
+height: 474px;
+}
+.form-signin h2.form-signin-heading {
+  margin: 0;
+  padding: 20px 15px;
+  text-align: center;
+  background: #67C53A;
+  border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+}
+.btn-primary, .btn-primary.disabled, .btn-primary[disabled], .btn-primary.disabled.active, .btn-primary.active[disabled] {
+  background-color: #526261;
+  border-color: #171818;
+  color: #FFFFFF;
+}
