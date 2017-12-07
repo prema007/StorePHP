@@ -188,7 +188,7 @@
             debugger;
             $.ajax({
                 type: "POST",
-                url: "server/php/user_add.php",
+                url: "Corefunc.php?action=Add",
                 data: datas
             }).done(function(data) {
                 $('#info').html(data);

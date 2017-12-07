@@ -16,8 +16,12 @@ session_start();
 	<tbody>
 <?php
 include "config.php";
-$res = $conn->query("select * from users");
-while ($row = $res->fetch_assoc()) {
+$res = $conn->prepare("select * from users");
+$res->execute();
+//$row = $res->fetch(PDO::FETCH_ASSOC);
+//$users = $getUsers->fetchAll();
+while ($row = $res->fetch(PDO::FETCH_ASSOC)) {
+
 	
 ?>
     
