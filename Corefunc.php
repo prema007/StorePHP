@@ -12,7 +12,7 @@ echo "action =" .$action;
 if($action == "Add")
 {
 	$name = $_POST['name'];
-    $email = $_POST$_POST['email'];
+    $email = $_POST['email'];
     $msg = $_POST['msg'];
 
 	//echo BASE_URL;
